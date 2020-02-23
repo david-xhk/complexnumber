@@ -1,5 +1,21 @@
-# Complex Number Program
+# ComplexNumberProgram
+Example usage of ComplexNumberProgram:
+```
+cd ~/Downloads/complexnumber/java
+java com.example.complex.ComplexNumberProgram
+Please input real component of first complex number: **1**
+Please input imaginary component of first complex number: **-2**
+Please input real component of second complex number: **3**
+Please input imaginary component of second complex number: **-4**
+Your complex numbers are: 1.0-2.0i and 3.0-4.0i
+1.0-2.0i + 3.0-4.0i = 4.0-6.0i
+1.0-2.0i - 3.0-4.0i = -2.0+2.0i
+1.0-2.0i * 3.0-4.0i = -5.0-10.0i
+1.0-2.0i / 3.0-4.0i = 0.44-0.08i
+Thank you for using ComplexNumberProgram. Goodbye!
+```
 
+# Documentation
 ## ComplexNumber	
 *Float* **real**; Real component of complex number.
 
@@ -15,28 +31,24 @@
 *ComplexNumber* **divide**(*ComplexNumber* c1, *ComplexNumber* c2); Divide c1 by c2.
 
 ## Test Cases
-Run TestComplexNumberCalculator.java to see some test cases:
+Run the following to see some test cases.
+```
+java com.example.complex.TestComplexNumberCalculator
+add test: 1.0-2.0i and 2.0-1.0i
+result: 3.0-3.0i, expected: 3.0-3.0i
+add test: passed
 
-1. **add**
+subtract test: 3.0+2.0i and 5.0-4.0i
+result: -2.0+6.0i, expected: -2.0+6.0i
+subtract test: passed
 
-   c1: 1.0-2.0i  
-   c2: 2.0-1.0i  
-   expected: 3.0-3.0i  
+multiply test: 3.0-2.0i and 1.0+2.0i
+result: 7.0+4.0i, expected: 7.0+4.0i
+multiply test: passed
 
-2. **subtract**
+divide test: 4.0-2.0i and 1.0+1.0i
+result: 1.0-3.0i, expected: 1.0-3.0i
+divide test: passed
+```
 
-   c1: 3.0+2.0i  
-   c2: 5.0-4.0i  
-   expected: -2.0+6.0i  
 
-3. **multiply**
-
-   c1: 3.0-2.0i  
-   c2: 1.0+2.0i  
-   expected: 7.0+4.0i  
-
-4. **divide**
-
-   c1: 4.0-2.0i  
-   c2: 1.0+1.0i  
-   expected: 1.0-3.0i  
