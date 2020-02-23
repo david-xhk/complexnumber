@@ -3,10 +3,10 @@ Example usage of ComplexNumberProgram:
 ```
 cd ~/Downloads/complexnumber/java
 java com.example.complex.ComplexNumberProgram
-Please input real component of first complex number: **1**
-Please input imaginary component of first complex number: **-2**
-Please input real component of second complex number: **3**
-Please input imaginary component of second complex number: **-4**
+Please input real component of first complex number: 1
+Please input imaginary component of first complex number: -2
+Please input real component of second complex number: 3
+Please input imaginary component of second complex number: -4
 Your complex numbers are: 1.0-2.0i and 3.0-4.0i
 1.0-2.0i + 3.0-4.0i = 4.0-6.0i
 1.0-2.0i - 3.0-4.0i = -2.0+2.0i
