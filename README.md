@@ -8,11 +8,11 @@
 ## ComplexNumberCalculator
 *ComplexNumber* **add**(*ComplexNumber* c1, *ComplexNumber* c2); Add c1 and c2.
 
-*ComplexNumber* subtract(*ComplexNumber* c1, *ComplexNumber* c2); Subtract c2 from c1.
+*ComplexNumber* **subtract**(*ComplexNumber* c1, *ComplexNumber* c2); Subtract c2 from c1.
 
-*ComplexNumber* multiply(*ComplexNumber* c1, *ComplexNumber* c2); Multiply c1 and c2.
+*ComplexNumber* **multiply**(*ComplexNumber* c1, *ComplexNumber* c2); Multiply c1 and c2.
 
-*ComplexNumber* divide(*ComplexNumber* c1, *ComplexNumber* c2); Divide c1 by c2.
+*ComplexNumber* **divide**(*ComplexNumber* c1, *ComplexNumber* c2); Divide c1 by c2.
 
 ## Test Cases
 Run TestComplexNumberCalculator.java to see some test cases:
