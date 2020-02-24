@@ -1,7 +1,7 @@
 # ComplexNumberProgram
 Example usage of ComplexNumberProgram:
 ```
-cd ~/Downloads/complexnumber/java
+cd ~/Downloads/complexnumber
 java com.example.complex.ComplexNumberProgram
 Please input real component of first complex number: 1
 Please input imaginary component of first complex number: -2
