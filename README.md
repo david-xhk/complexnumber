@@ -17,9 +17,9 @@ Thank you for using ComplexNumberProgram. Goodbye!
 
 # Documentation
 ## ComplexNumber	
-*Float* **real**; Real component of complex number.
+*float* **real**; Real component of complex number.
 
-*Float* **imag**; Imaginary component of complex number.
+*float* **imag**; Imaginary component of complex number.
 
 ## ComplexNumberCalculator
 *ComplexNumber* **add**(*ComplexNumber* c1, *ComplexNumber* c2); Add c1 and c2.
